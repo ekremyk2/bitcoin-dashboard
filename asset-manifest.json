@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bitcoin-dashboard/static/css/main.b3bc6a9b.css",
+    "main.js": "/bitcoin-dashboard/static/js/main.401b2f2f.js",
+    "index.html": "/bitcoin-dashboard/index.html",
+    "main.b3bc6a9b.css.map": "/bitcoin-dashboard/static/css/main.b3bc6a9b.css.map",
+    "main.401b2f2f.js.map": "/bitcoin-dashboard/static/js/main.401b2f2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3bc6a9b.css",
+    "static/js/main.401b2f2f.js"
+  ]
+}
