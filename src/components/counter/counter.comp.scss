@@ -1,0 +1,20 @@
+.counter-comp {
+  padding-top: 10%;
+  text-align: center;
+
+  .counter-comp-clock-label {
+    font-size: 40px;
+  }
+
+  .counter-comp-button-group {
+    button {
+      height: 30px;
+      width: 50px;
+    }
+  }
+
+  .counter-comp-reset-button {
+    height: auto;
+    width: 150px;
+  }
+}

@@ -1,0 +1,40 @@
+.price-table-comp {
+  padding-top: 5%;
+  text-align: center;
+  .price-table-comp-info {
+    padding: 2%;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+  }
+  .price-table-comp-label-group {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+  }
+
+  .price-table-comp-label {
+    order: 0;
+    padding: 0% 10%;
+    flex: 0 1 auto;
+    align-self: auto;
+    font-size: 25px;
+    font-weight: bold;
+    animation-name: flash;
+    animation-duration: 3s;
+  }
+
+  @keyframes flash {
+    from {
+      font-size: 29px;
+      color: white;
+    }
+    to {
+      font-size: 25px;
+      color: black;
+    }
+  }
+}
