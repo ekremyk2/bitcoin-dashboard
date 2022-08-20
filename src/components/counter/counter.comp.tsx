@@ -14,11 +14,17 @@ const Counter = () => {
   }, []);
 
   const increaseCounter = (input: number) => {
-    if (counter + input < 86400) setCounter((counter) => counter + input);
+    setCounter((counter) => {
+      if (counter + input < 86400) counter = counter + input;
+      return counter;
+    });
   };
 
   const decreaseCounter = (input: number) => {
-    if (counter - input > 0) setCounter((counter) => counter - input);
+    setCounter((counter) => {
+      if (counter - input >= 0) counter = counter - input;
+      return counter;
+    });
   };
 
   const resetCounter = () => {
